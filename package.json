@@ -1,0 +1,22 @@
+{
+  "name": "learn_parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lk125454242/learn_parcel.git",
+  "author": "lk125454242 <125454242@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch src/index.html",
+    "build": "parcel build src/index.html -d output --public-url ./"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
+  }
+}
